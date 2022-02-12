@@ -1,14 +1,15 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
-import CustomTextInput from './customTextInput';
+import { CustomTextInput as TextInput, CustomTable as Table } from './customComponents';
 
 function App() {
   return (
     <div className="App">
       <div className='inputfield-wrapper'>
-        <CustomTextInput search />
+        <TextInput search />
       </div>
+      <Table />
     </div>
   );
 }

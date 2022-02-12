@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: center;
+  // background-color: #282c34;
+  min-height: 100vh;
+  padding: 1rem;
+
+  .inputfield-wrapper {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}
